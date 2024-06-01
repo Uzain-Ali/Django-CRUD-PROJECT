@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from .models import StudentDB
 from django.contrib import messages
 
+
 # Create your views here.
 def index(request):
     data=StudentDB.objects.all()
